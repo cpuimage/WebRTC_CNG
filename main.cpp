@@ -112,7 +112,7 @@ int main(int argc, char *argv[]) {
                                          kForceSid, &sid_data);
         if (size == (quality + 1))
             printf("done \n");
-        wavWrite_int16("ng_encoder.wav", speech_data_, sample_rate_hz, num_samples_10ms);
+        wavWrite_int16("cng.wav", speech_data_, sample_rate_hz, num_samples_10ms);
     }
     printf("按任意键退出程序 \n");
     getchar();
